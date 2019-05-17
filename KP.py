@@ -8,7 +8,7 @@ os.system("apt install git")
 os.system("apt install python-pip")
 os.system("apt install net-tools")
 os.system("gzip -d /usr/share/wordlists/rockyou.txt.gz")
-os.system("sh -c '$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)'")
+os.system("sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'")
 os.system("chsh -s /bin/zsh")
 ###
 os.system("clear")
