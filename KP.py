@@ -49,7 +49,7 @@ SecLists Password Lists
 '''
 raw_input("Please press enter to continue:")
 ###
-os.system("mkdir /Desktop/Tools"
+os.system("mkdir /Desktop/Tools")
 os.system("git clone https://github.com/Mebus/cupp.git /root/Desktop/Tools/Cupp")
 os.system("git clone https://github.com/sc0tfree/mentalist.git /root/Desktop/Tools/Mentalist")
 os.system("git clone https://github.com/D35m0nd142/LFISuite.git /root/Desktop/Tools/LFISuite")
